@@ -147,6 +147,12 @@ Ubunutu 24.04 specifically introduced breaking changes that affect how namespace
 
 Built and tested using Node `v23.11.0`.
 
+Disable namespace restriction on the entire system for one boot by executing(This setting is lost on reboot)):
+
+```bash
+echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+```
+
 This project is built off of [electron-vite](https://github.com/alex8088/electron-vite)
 
 - `pnpm run dev` - Start the development server
