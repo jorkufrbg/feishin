@@ -12,7 +12,10 @@
       "Bash(source:*)",
       "Bash(node:*)",
       "Bash(pnpm:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(mpv:*)",
+      "Bash(timeout 10s pnpm run dev)",
+      "Bash(timeout 15s pnpm run dev)"
     ]
   },
   "outputStyle": "default"
