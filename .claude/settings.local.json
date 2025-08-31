@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Read(/home/ragnarok/.config/Code/User/**)",
+      "Bash(echo $SHELL)",
+      "Read(/home/ragnarok/**)",
+      "Bash(source:*)",
+      "Bash(node:*)",
+      "Bash(pnpm:*)",
+      "Bash(pkill:*)"
+    ]
+  },
+  "outputStyle": "default"
+}
