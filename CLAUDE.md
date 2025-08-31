@@ -13,11 +13,12 @@ Feishin is a modern self-hosted music player built with Electron and React. It's
 1. Disable namespace restrictions (required for Electron on Ubuntu)
 
 2. This needs to be run after each reboot
+
 ```sh
 echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
 ```
 
-3. Make this persistent across reboots (optional)
+1. Make this persistent across reboots (optional)
 
 ```sh
 echo 'kernel.apparmor_restrict_unprivileged_userns=0' | sudo tee -a /etc/sysctl.conf
